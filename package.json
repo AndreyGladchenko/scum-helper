@@ -1,0 +1,39 @@
+{
+  "name": "scum-helper",
+  "version": "0.0.1-alpha",
+  "description": "SCUM Game helper",
+  "main": "index.js",
+  "author": "fathalfath30 <fathalfath30@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@fathalfath30.github.com:fathalfath30/scum-helper.git"
+  },
+  "keywords": [
+    "SCUM",
+    "Game",
+    "Helper"
+  ],
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.19.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/custom-cz-conventional-changelog-for-jira",
+      "jiraOptional": true
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "commitizen": "^4.2.3",
+    "custom-cz-conventional-changelog-for-jira": "^0.0.0-semantically-released",
+    "pre-commit": "^1.2.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "nodemon": "2.0.7"
+  }
+}
